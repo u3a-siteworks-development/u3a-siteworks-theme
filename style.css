@@ -1,0 +1,66 @@
+/*
+Theme Name: u3a SiteWorks theme
+Theme URI: https://u3awpdev.org.uk/
+Author: u3a SiteWorks Team
+Author URI: https://siteworks.u3a.org.uk/
+Plugin URI: https://siteworks.u3a.org.uk/
+Description: Block theme using u3a brand guideline colours and fonts.  Based on starter theme from https://fullsiteediting.com/
+Requires at least: 6.0
+Tested up to: 6.3
+Requires PHP: 7.4
+Version: 1.9.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root {
+	--mainblue: #005ab8;
+	--mainyellow: #ffc700;
+}
+
+/* Styling for 'u3a' text in Header */
+.u3a-header-logo {
+	font-size: 3.1rem;
+	letter-spacing: -4px;
+}
+.u3a-header-logo a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Add a bit of top padding and space between menu items. Can't add this in theme.json or block properties at the moment */
+li.wp-block-navigation-item {
+	padding-right: 10px !important;
+}
+
+/* Add underscore to currently selected menu item and colour change on hover */
+@media only screen and (min-width:600px) {
+	nav.wp-block-navigation.is-horizontal {
+		margin-top: 5px;
+	}
+	li.current-menu-item a {
+		border-bottom: 3px solid black;
+		margin-bottom: -3px;
+		}
+		nav.wp-block-navigation li.wp-block-navigation-item a:hover {
+		color:#ee695a;
+		}
+}
+
+/* Add the word menu after the hamburger on mobile navigation and add button outline */
+.wp-block-search__inside-wrapper {
+	width: 200px !important;
+}
+
+button.wp-block-navigation__responsive-container-open {
+	padding: 12px 10px 12px 8px;
+	border: 1px solid #949494;
+	margin-right: 0;
+}
+
+button.wp-block-navigation__responsive-container-open::after {
+	content: "Menu";
+	font-size: 15px;
+	padding-top: 3px;
+	padding-left: 5px;
+}
