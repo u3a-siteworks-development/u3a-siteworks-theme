@@ -1,0 +1,134 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "title": "Black and Grey",
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "uta-text",
+          "color": "#000000",
+          "name": "u3a Text"
+        },
+        {
+          "slug": "uta-background",
+          "color": "#f0f0f0",
+          "name": "u3a Background"
+        },
+        {
+          "slug": "uta-header-back",
+          "color": "#1a1a1a",
+          "name": "u3a Header Back"
+        },
+        {
+          "slug": "uta-header",
+          "color": "#0d0d0d",
+          "name": "u3a Header"
+        },
+
+        {
+          "slug": "uta-dark-blue",
+          "color": "#005ab8",
+          "name": "u3a Dark Blue"
+        },
+        {
+          "slug": "uta-header-text",
+          "color": "#ffffff",
+          "name": "u3a Header Text"
+        },
+        {
+          "slug": "uta-link",
+          "color": "#0000ff",
+          "name": "u3a Link"
+        },
+        {
+          "slug": "uta-light-blue",
+          "color": "#2886e8",
+          "name": "u3a Light Blue"
+        },
+        {
+          "slug": "uta-orange",
+          "color": "#ffaa31",
+          "name": "u3a Orange"
+        },
+        {
+          "slug": "uta-light-green",
+          "color": "#63c369",
+          "name": "u3a Light Green"
+        },
+        {
+          "slug": "uta-forest-green",
+          "color": "#10695a",
+          "name": "u3a Forest Green"
+        },
+        {
+          "slug": "uta-purple",
+          "color": "#b49fdc",
+          "name": "u3a Purple"
+        },
+        {
+          "slug": "uta-red",
+          "color": "#ee695a",
+          "name": "u3a Red"
+        },
+        {
+          "slug": "uta-very-dark-blue",
+          "color": "#001933",
+          "name": "u3a Very Dark Blue"
+        },
+        {
+          "slug": "uta-dark-red",
+          "color": "#8a1b0f",
+          "name": "u3a Dark Red"
+        },
+        {
+          "slug": "uta-very-dark-red",
+          "color": "#5c120a",
+          "name": "u3a Very Dark Red"
+        },
+        {
+          "slug": "wpu-light-red",
+          "color": "#f08275",
+          "name": "wpu Light Red"
+        },
+        {
+          "slug": "uta-medium-red",
+          "color": "#170503",
+          "name": "u3a Medium Red"
+        },
+        {
+          "slug": "uta-very-light-red",
+          "color": "#fceae8",
+          "name": "uta Very Light Red"
+        },
+        {
+          "slug": "wpu-earth",
+          "color": "#5a2d0c",
+          "name": "wpu Earth"
+        },
+        {
+          "slug": "wpu-very-light-earth",
+          "color": "#f9e2d2",
+          "name": "wpu Very Light Earth"
+        },
+        {
+          "slug": "wpu-very-light-green",
+          "color": "#e9fcf9",
+          "name": "wpu Very Light Green"
+        },
+        {
+          "slug": "wpu-very-light-yellow",
+          "color": "#fff4cc",
+          "name": "wpu Very Light Yellow"
+        },
+        {
+          "slug": "wpu-very-light-blue",
+          "color": "#e6f2ff",
+          "name": "wpu Very Light Blue"
+        }
+      ]
+    }
+  }
+}
