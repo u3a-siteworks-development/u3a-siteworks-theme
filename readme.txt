@@ -1,6 +1,6 @@
 === u3a-siteworks-theme ===
 Requires at least: 5.9
-Tested up to: 6.3
+Tested up to: 6.4
 Stable tag: 5.9
 Requires PHP: 7.3
 License: GPLv2 or later
@@ -22,6 +22,8 @@ For more information please refer to the [SiteWorks website](https://siteworks.u
 Please refer to the documentation on the [SiteWorks website](https://siteworks.u3a.org.uk/u3a-siteworks-training/)
 
 == Changelog ==
+= 1.9.2 =
+* Change CSS so that only one sub menu item is underlined in the menu.
 = 1.9.1 =
 * Include policy link in footer and code to define shortcode [u3a_policy_notice] in functions.php 
 = 1.8.17 =
