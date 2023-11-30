@@ -6,9 +6,9 @@ Author URI: https://siteworks.u3a.org.uk/
 Plugin URI: https://siteworks.u3a.org.uk/
 Description: Block theme using u3a brand guideline colours and fonts.  Based on starter theme from https://fullsiteediting.com/
 Requires at least: 6.0
-Tested up to: 6.3
+Tested up to: 6.4.1
 Requires PHP: 7.4
-Version: 1.9.1
+Version: 1.9.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -38,7 +38,7 @@ li.wp-block-navigation-item {
 	nav.wp-block-navigation.is-horizontal {
 		margin-top: 5px;
 	}
-	li.current-menu-item a {
+	li.current-menu-item > a {
 		border-bottom: 3px solid black;
 		margin-bottom: -3px;
 		}
