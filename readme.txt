@@ -23,7 +23,7 @@ Please refer to the documentation on the [SiteWorks website](https://siteworks.u
 
 == Changelog ==
 =1.9.3 =
-* Add spacer block to single.html template
+* Add spacer block to single.html template to prevent large left aligned images overlapping footer
 = 1.9.2 =
 * Change CSS so that only one sub menu item is underlined in the menu.
 = 1.9.1 =
