@@ -22,6 +22,9 @@ For more information please refer to the [SiteWorks website](https://siteworks.u
 Please refer to the documentation on the [SiteWorks website](https://siteworks.u3a.org.uk/u3a-siteworks-training/)
 
 == Changelog ==
+=1.9.3 =
+* Add spacer block to single.html template to prevent large left aligned images overlapping footer
+* And restore search box min width to style.css . Also add comments,
 = 1.9.2 =
 * Change CSS so that only one sub menu item is underlined in the menu.
 = 1.9.1 =
