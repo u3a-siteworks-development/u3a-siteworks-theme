@@ -47,12 +47,18 @@ li.wp-block-navigation-item {
 		}
 }
 
+/* This line is required to overcome an apparent min width of 220px */
+.wp-block-search__inside-wrapper {
+	width: 200px !important;
+}
+
 button.wp-block-navigation__responsive-container-open {
 	padding: 12px 10px 12px 8px;
 	border: 1px solid #949494;
 	margin-right: 0;
 }
 
+/* Add the word menu after the hamburger on mobile navigation and add button outline */
 button.wp-block-navigation__responsive-container-open::after {
 	content: "Menu";
 	font-size: 15px;
