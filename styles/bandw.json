@@ -16,11 +16,16 @@
           "slug": "uta-background",
           "color": "#f0f0f0",
           "name": "u3a Background"
-        },
+        },        
         {
           "slug": "uta-header-back",
           "color": "#1a1a1a",
           "name": "u3a Header Back"
+        },
+        {
+          "slug": "uta-header",
+          "color": "#0d0d0d",
+          "name": "u3a Header"
         },
         {
           "slug": "uta-button-back",
@@ -31,12 +36,7 @@
           "slug": "uta-button-text",
           "color": "#ffffff",
           "name": "u3a Button Text"
-        },
-        {
-          "slug": "uta-header",
-          "color": "#0d0d0d",
-          "name": "u3a Header"
-        },
+        },        
         {
           "slug": "uta-dark-blue",
           "color": "#005ab8",
