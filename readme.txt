@@ -22,6 +22,8 @@ For more information please refer to the [SiteWorks website](https://siteworks.u
 Please refer to the documentation on the [SiteWorks website](https://siteworks.u3a.org.uk/u3a-siteworks-training/)
 
 == Changelog ==
+=1,9,5 =
+* Add button colours to the alternate styles
 =1.9.4 =
 * Revert site logo block change to use heading block to prevent copyright issues
 =1.9.3 =

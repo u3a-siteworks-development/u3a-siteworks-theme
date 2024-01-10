@@ -16,7 +16,7 @@
           "slug": "uta-background",
           "color": "#f0f0f0",
           "name": "u3a Background"
-        },
+        },        
         {
           "slug": "uta-header-back",
           "color": "#1a1a1a",
@@ -27,7 +27,16 @@
           "color": "#0d0d0d",
           "name": "u3a Header"
         },
-
+        {
+          "slug": "uta-button-back",
+          "color": "#000000",
+          "name": "u3a Button Back"
+        },
+        {
+          "slug": "uta-button-text",
+          "color": "#ffffff",
+          "name": "u3a Button Text"
+        },        
         {
           "slug": "uta-dark-blue",
           "color": "#005ab8",
