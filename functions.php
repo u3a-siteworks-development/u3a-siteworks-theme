@@ -5,6 +5,7 @@
  * developed for the u3a SiteWorks project
  * https://siteworks.u3a.org.uk
  */
+// BD Remove test patterns 26 Feb 2024
 
 // Configure theme to use the WP Update Server service on the SiteWorks server
 
@@ -69,45 +70,6 @@ function u3atest_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'u3atest_scripts');
-
-
-
-function u3atest_block_pattern()
-{
-	register_block_pattern(
-		'u3atest/wrap-figure',
-		array(
-			'title' => 'Wrap figure',
-			'content' => "<!-- wp:group -->
-<div class=\"wp-block-group\">
-<!-- wp:image {\"align\":\"left\",\"id\":131,\"width\":100,\"height\":100,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->
-<figure class=\"wp-block-image alignleft size-large is-resized\"><img src=\"\" alt=\"\" class=\"wp-image-131\" width=\"100\" height=\"100\"/></figure>
-<!-- /wp:image -->
-<!-- wp:paragraph -->
-<p>Enter text here</p>
-<!-- /wp:paragraph --></div>
-<!-- /wp:group -->",
-		)
-	);
-	register_block_pattern(
-		'u3atest/wrap-figure-right',
-		array(
-			'title' => 'Wrap figure right',
-			'content' => "<!-- wp:group -->
-<div class=\"wp-block-group\">
-<!-- wp:image {\"align\":\"right\",\"id\":131,\"width\":100,\"height\":100,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->
-<figure class=\"wp-block-image alignright size-large is-resized\"><img src=\"\" alt=\"\" class=\"wp-image-131\" width=\"100\" height=\"100\"/></figure>
-<!-- /wp:image -->
-<!-- wp:paragraph -->
-<p>Enter text here</p>
-<!-- /wp:paragraph -->
-</div>
-<!-- /wp:group -->",
-		)
-	);
-}
-
-add_action('init', 'u3atest_block_pattern');
 
 /**
  * Define shortcode for use in Footer template part to show a link to the website policy page, if present and published
