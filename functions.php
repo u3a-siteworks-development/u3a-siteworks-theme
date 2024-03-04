@@ -5,6 +5,7 @@
  * developed for the u3a SiteWorks project
  * https://siteworks.u3a.org.uk
  */
+// BD Remove unnecessary u3atest_theme_support and u3atest_styles functions. Rename u3a_test_scripts to u3a_theme_scripts and u3atest-styles to u3a_theme_styles  4/3/2024
 // BD Remove test patterns 26 Feb 2024
 
 // Configure theme to use the WP Update Server service on the SiteWorks server
@@ -21,55 +22,17 @@ $u3athemeUpdateChecker = PucFactory::buildUpdateChecker(
 	'u3a-siteworks-theme'
 );
 
-if (!function_exists('u3atest_theme_support')) :
-	function u3atest_theme_support()
-	{
-
-		// Adding support for core block visual styles.
-		add_theme_support('wp-block-styles');
-
-		// Enqueue editor styles.
-		add_editor_style('style.css');
-	}
-endif;
-add_action('after_setup_theme', 'u3atest_theme_support');
-if (!function_exists('u3atest_styles')) :
-
-	function u3atest_styles()
-	{
-		// Register theme stylesheet.
-		$theme_version = wp_get_theme()->get('Version');
-
-		$version_string = is_string($theme_version) ? $theme_version : false;
-		wp_register_style(
-			'u3atest',
-			get_template_directory_uri() . '/style.css',
-			array(),
-			$version_string
-		);
-
-		// Add styles inline.
-		//wp_add_inline_style( 'u3atest', u3atest_get_font_face_styles() );
-
-		// Enqueue theme stylesheet.
-		wp_enqueue_style('u3atest-style');
-	}
-
-endif;
-add_action('wp_enqueue_scripts', 'u3atest_styles');
-
-
 
 /**
  * Enqueue scripts and styles.
  */
-function u3atest_scripts()
+function u3a_theme_scripts()
 {
 	// Enqueue theme stylesheet.
-	wp_enqueue_style('u3atest-style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get('Version'));
+	wp_enqueue_style('u3a_theme_style', get_template_directory_uri() . '/style.css', array(), wp_get_theme()->get('Version'));
 }
 
-add_action('wp_enqueue_scripts', 'u3atest_scripts');
+add_action('wp_enqueue_scripts', 'u3a_theme_scripts');
 
 /**
  * Define shortcode for use in Footer template part to show a link to the website policy page, if present and published
