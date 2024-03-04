@@ -1,6 +1,6 @@
 === u3a-siteworks-theme ===
 Requires at least: 5.9
-Tested up to: 6.4
+Tested up to: 6.4.3
 Stable tag: 5.9
 Requires PHP: 7.3
 License: GPLv2 or later
@@ -22,6 +22,8 @@ For more information please refer to the [SiteWorks website](https://siteworks.u
 Please refer to the documentation on the [SiteWorks website](https://siteworks.u3a.org.uk/u3a-siteworks-training/)
 
 == Changelog ==
+=1.9.7 =
+* Simplify code in Functions.php and rename references to u3a test to u3a_theme
 =1.9.6 =
 * Remove test patterns from Functions.php
 =1.9.5 =
