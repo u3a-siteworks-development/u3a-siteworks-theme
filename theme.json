@@ -139,6 +139,74 @@
       "contentSize": "840px",
       "wideSize": "1100px"
     },
+    "shadow": {
+      "presets": [
+        {
+          "name": "shadow1",
+          "shadow": "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
+          "slug": "shadow1"
+        },
+        {
+          "name": "shadow2",
+          "shadow": "rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px",
+          "slug": "shadow2"
+        },
+        {
+          "name": "shadow3",
+          "shadow": "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px",
+          "slug": "shadow3"
+        },
+        {
+          "name": "shadow4",
+          "shadow": "rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px",
+          "slug": "shadow4"
+        },
+
+        {
+          "name": "shadow5",
+          "shadow": "rgba(0, 90, 185, 0.16) 0px 3px 6px, rgba(0, 90, 185, 0.23) 0px 3px 6px",
+          "slug": "shadow5"
+        },
+        {
+          "name": "shadow6",
+          "shadow": "rgba(0, 90, 185, 0.19) 0px 10px 20px, rgba(0, 90, 185, 0.23) 0px 6px 6px",
+          "slug": "shadow6"
+        },
+        {
+          "name": "shadow7",
+          "shadow": "rgba(0, 90, 185, 0.25) 0px 14px 28px, rgba(0, 90, 185, 0.22) 0px 10px 10px",
+          "slug": "shadow7"
+        },
+        {
+          "name": "shadow8",
+          "shadow": "rgba(0, 90, 185, 0.3) 0px 19px 38px, rgba(0, 90, 185, 0.22) 0px 15px 12px",
+          "slug": "shadow8"
+        },
+
+        {
+          "name": "shadow9",
+          "shadow": "rgb(255, 170, 50, 0.16) 0px 3px 6px, rgb(255, 170, 50, 0.23) 0px 3px 6px",
+          "slug": "shadow9"
+        },
+        {
+          "name": "shadow10",
+          "shadow": "rgb(255, 170, 50, 0.19) 0px 10px 20px, rgb(255, 170, 50, 0.23) 0px 6px 6px",
+          "slug": "shadow10"
+        },
+        {
+          "name": "shadow11",
+          "shadow": "rgb(255, 170, 50, 0.25) 0px 14px 28px, rgb(255, 170, 50, 0.22) 0px 10px 10px",
+          "slug": "shadow11"
+        },
+        {
+          "name": "shadow12",
+          "shadow": "rgb(255, 170, 50, 0.3) 0px 19px 38px, rgb(255, 170, 50, 0.22) 0px 15px 12px",
+          "slug": "shadow12"
+        }
+
+
+      ]
+    },
     "spacing": {
       "units": [
         "%",

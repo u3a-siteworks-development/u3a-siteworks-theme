@@ -1,6 +1,6 @@
 === u3a-siteworks-theme ===
 Requires at least: 5.9
-Tested up to: 6.4.3
+Tested up to: 6.5
 Stable tag: 5.9
 Requires PHP: 7.3
 License: GPLv2 or later
@@ -22,15 +22,17 @@ For more information please refer to the [SiteWorks website](https://siteworks.u
 Please refer to the documentation on the [SiteWorks website](https://siteworks.u3a.org.uk/u3a-siteworks-training/)
 
 == Changelog ==
-=1.9.7 =
+= 1.9.8 =
+* Add drop shadow presets to theme.json in black, u3a dark blue and u3a orange
+= 1.9.7 =
 * Simplify code in Functions.php and rename references to u3a test to u3a_theme
-=1.9.6 =
+= 1.9.6 =
 * Remove test patterns from Functions.php
-=1.9.5 =
+= 1.9.5 =
 * Add button colours to the alternate styles
-=1.9.4 =
+= 1.9.4 =
 * Revert site logo block change to use heading block to prevent copyright issues
-=1.9.3 =
+= 1.9.3 =
 * Add spacer block to single.html template to prevent large left aligned images overlapping footer
 * And restore search box min width to style.css . Also add comments,
 = 1.9.2 =
